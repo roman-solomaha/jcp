@@ -1,0 +1,48 @@
+body{
+  background-color: #cdeedc;
+}
+
+.navbar{
+  border-radius: 0;
+}
+
+.image-upload-wrap{
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+  padding: 12px;
+  width: 124px;
+
+  img {
+    width: 100px;
+  }
+
+  button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-radius: 100%;
+    border: 3px solid;
+    color: #fff;
+    background-color: #ff686e;
+    opacity: 0.5;
+    width: 24px;
+    height: 24px;
+    line-height: 20px;
+    padding: 0;
+    font-size: 16px;
+    text-align: center;
+
+    &:hover, &:focus{
+      opacity: 1;
+      outline: none;
+    }
+  }
+
+  [type="file"]{
+    position: absolute;
+    opacity: 0;
+    width: 1000%;
+    height: 1000%;
+  }
+}

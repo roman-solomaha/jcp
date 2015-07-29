@@ -1,0 +1,17 @@
+# Development Folders
+database
+design
+node_modules
+
+# Framework files
+vendor/*
+runtime/*
+
+# Database connect
+config/db.php
+
+# Distribution assets
+web/assets/*
+#web/distribution
+#modules/admin/assets/distribution
+#modules/site/assets/distribution

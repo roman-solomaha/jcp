@@ -1,0 +1,36 @@
+body{
+  background-color: #ccddee;
+}
+
+.navbar{
+  border-radius: 0;
+}
+
+label.btn {
+  opacity: 0.3;
+
+  &:hover, &:focus {
+    opacity: 0.6;
+  }
+
+  &.active {
+    opacity: 1;
+  }
+}
+
+img{
+    max-width: 100%;
+}
+
+
+.form-group{
+  &.has-error{
+    .help-block-error{
+      display: block;
+    }
+  }
+
+  .help-block-error{
+    display: none;
+  }
+}
